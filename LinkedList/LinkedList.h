@@ -189,6 +189,9 @@ class LinkedList {
          */
         int binaryToDecimal();
 
+        /*
+         * Método que invierte la lista entre dos posiciones dadas.
+         */
         void reverseBetween(int m, int n);
 };
 
