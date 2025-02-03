@@ -1,0 +1,14 @@
+//
+// Created by 72358 on 26/11/2024.
+//
+
+#ifndef DATA_ESTRUCTURE_C_DOUBLELINKEDLIST_H
+#define DATA_ESTRUCTURE_C_DOUBLELINKEDLIST_H
+
+
+class DoubleLinkedList {
+
+};
+
+
+#endif //DATA_ESTRUCTURE_C_DOUBLELINKEDLIST_H

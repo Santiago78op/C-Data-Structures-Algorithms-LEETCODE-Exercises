@@ -1,0 +1,7 @@
+# ninja log v6
+22	2495	7543504864131193	CMakeFiles/Data_Estructure_C.dir/main.cpp.obj	5844593b853cbf8e
+2496	4915	7543504888866802	Data_Estructure_C.exe	4fa4fc47a34d8994
+8	561	7490084315513308	CMakeFiles/Data_Estructure_C.dir/BigO/Bigo.cpp.obj	c7cbeaa83bc970c6
+6	1405	7598731555040553	build.ninja	1dae45c31a6549e8
+863	2492	7543504872543110	CMakeFiles/Data_Estructure_C.dir/LinkedList/LinkedList.cpp.obj	39bbb3919f5024ff
+43	792	7495264655063004	CMakeFiles/Data_Estructure_C.dir/ClassAndPointers/Cookie.cpp.obj	5758a8f08ebc9da5
