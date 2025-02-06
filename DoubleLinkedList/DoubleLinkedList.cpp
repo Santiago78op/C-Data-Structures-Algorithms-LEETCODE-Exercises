@@ -191,3 +191,60 @@ void DoubleLinkedList::prepend(int value) {
 
     length++;
 }
+
+/**
+ * Método que elimina el primer nodo de la lista.
+ * @return void
+ * @complexity O(1)
+ * @precondition Ninguna
+ * @postcondition Se elimina el primer nodo de la lista
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.deleteFirst();
+ */
+void DoubleLinkedList::deleteFirst() {
+    if (length == 0) return;
+
+    Node *temp = head;
+
+    if (length == 1) {
+        head = nullptr;
+        tail = nullptr;
+    } else {
+        head = head->next;
+        head->prev = nullptr;
+    }
+
+    delete temp;
+    length--;
+}
+
+/**
+ * Método que inserta un nodo en una posición dada.
+ * @param index Posición en la que se insertará el nodo
+ * @param value Valor del nodo a insertar
+ * @return Verdadero si se pudo insertar el nodo, falso en caso contrario
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Se inserta un nodo en la posición dada
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.insert(2, 5);
+ */
+Node *DoubleLinkedList::get(int index) {
+    if (index < 0 || index >= length) return nullptr;
+
+    Node *temp = head;
+
+    if (index < length/2){
+        for (int i = 0; i < index; ++i) {
+            temp = temp->next;
+        }
+    } else {
+        temp = tail;
+        for (int i = length - 1; i > index; --i) {
+            temp = temp->prev;
+        }
+    }
+    return temp;
+}

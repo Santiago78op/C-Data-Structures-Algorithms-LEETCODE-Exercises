@@ -93,7 +93,31 @@ class DoubleLinkedList {
          */
         void deleteLast();
 
+        /**
+         * Método que añade un nodo al inicio de la lista.
+         * @param value Valor del nodo a añadir
+         */
         void prepend(int value);
+
+        /**
+         * Método que elimina el primer nodo de la lista.
+         */
+        void deleteFirst();
+
+        /**
+         * Método que retorna el nodo en una posición dada.
+         * @param index Posición del nodo a retornar
+         * @return Puntero al nodo en la posición dada
+         */
+        Node* get(int index);
+
+        /**
+         * Método que establece el valor de un nodo en una posición dada.
+         * @param index Posición del nodo a modificar
+         * @param value Valor a establecer
+         * @return Puntero al nodo modificado
+         */
+        Node* set(int index, int value);
 };
 
 
