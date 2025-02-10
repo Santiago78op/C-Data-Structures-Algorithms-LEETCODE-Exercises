@@ -117,7 +117,21 @@ class DoubleLinkedList {
          * @param value Valor a establecer
          * @return Puntero al nodo modificado
          */
-        Node* set(int index, int value);
+        bool set(int index, int value);
+
+        /**
+         * Método que inserta un nodo en una posición dada.
+         * @param index Posición en la que se insertará el nodo
+         * @param value Valor del nodo a insertar
+         * @return Verdadero si se pudo insertar el nodo, falso en caso contrario
+         */
+        bool insert(int index, int value);
+
+        /**
+         * Método que elimina un nodo en una posición dada.
+         * @param index Posición del nodo a eliminar
+         */
+        void deleteNode(int index);
 };
 
 

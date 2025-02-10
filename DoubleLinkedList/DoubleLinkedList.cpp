@@ -248,3 +248,89 @@ Node *DoubleLinkedList::get(int index) {
     }
     return temp;
 }
+
+/**
+ * Método que establece el valor de un nodo en una posición dada.
+ * @param index Posición del nodo a modificar
+ * @param value Valor a establecer
+ * @return Verdadero si se pudo modificar el nodo, falso en caso contrario
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Se modifica el valor de un nodo en la posición dada
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.set(2, 5);
+ */
+bool DoubleLinkedList::set(int index, int value) {
+    Node *temp = get(index);
+
+    if(temp) {
+        temp->value = value;
+        return true;
+    }
+    return false;
+}
+
+
+/**
+ * Método que inserta un nodo en una posición dada.
+ * @param index Posición en la que se insertará el nodo
+ * @param value Valor del nodo a insertar
+ * @return Verdadero si se pudo insertar el nodo, falso en caso contrario
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Se inserta un nodo en la posición dada
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.insert(2, 5);
+ */
+bool DoubleLinkedList::insert(int index, int value) {
+    if (index < 0 || index > length) return false;
+
+    if (index == 0){
+        prepend(value);
+        return true;
+    }
+
+    if (index == length){
+        append(value);
+        return true;
+    }
+
+    // Insertar en medio
+    Node* newNode = new Node(value);
+    Node* before = get(index - 1);
+    Node* after = before->next;
+
+    newNode->prev = before;
+    newNode->next = after;
+
+    before->next = newNode;
+    after->prev = newNode;
+
+    length++;
+    return true;
+}
+
+void DoubleLinkedList::deleteNode(int index) {
+    if (index < 0 || index >= length) return;
+
+    if (index == 0) {
+        deleteFirst();
+        return;
+    }
+
+    if (index == length - 1) {
+        deleteLast();
+        return;
+    }
+
+    Node* temp = get(index);
+
+    if (temp == nullptr) return;
+
+    temp->next->prev = temp->prev;
+    temp->prev->next = temp->next;
+    delete temp;
+    length--;
+}
