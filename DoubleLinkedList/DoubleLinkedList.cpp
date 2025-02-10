@@ -312,6 +312,17 @@ bool DoubleLinkedList::insert(int index, int value) {
     return true;
 }
 
+/**
+ * Método que elimina un nodo en una posición dada.
+ * @param index Posición del nodo a eliminar
+ * @return void
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Se elimina un nodo en la posición dada
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.deleteNode(2);
+ */
 void DoubleLinkedList::deleteNode(int index) {
     if (index < 0 || index >= length) return;
 
