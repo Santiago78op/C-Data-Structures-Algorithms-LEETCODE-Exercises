@@ -29,7 +29,7 @@ class DoubleLinkedList {
          * Constructor que inicializa la lista con un valor dado.
          * @param value Valor del nodo inicial
          */
-        explicit DoubleLinkedList(int value);
+        explicit DoubleLinkedList();
 
         /**
          * Destructor que libera la memoria de los nodos de la lista.
@@ -132,6 +132,27 @@ class DoubleLinkedList {
          * @param index Posición del nodo a eliminar
          */
         void deleteNode(int index);
+
+        /**
+         * Método que intercambia el primer y último nodo de la lista.
+         */
+        void swapFirstAndLast();
+
+        /**
+         * Método que invierte el orden de los nodos de la lista.
+         */
+        void reverse();
+
+        /**
+         * Método que verifica si la lista es un palíndromo.
+         * @return Verdadero si la lista es un palíndromo, falso en caso contrario
+         */
+        bool isPalindrome();
+
+        /**
+         * Método que intercambia los nodos en pares.
+         */
+        void swapPairs();
 };
 
 

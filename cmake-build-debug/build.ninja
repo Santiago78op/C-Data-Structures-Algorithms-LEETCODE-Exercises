@@ -79,6 +79,24 @@ build CMakeFiles/Data_Estructure_C.dir/DoubleLinkedList/DoubleLinkedList.cpp.obj
   OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Estructure_C.dir\DoubleLinkedList
 
+build CMakeFiles/Data_Estructure_C.dir/Stack/Stack.cpp.obj: CXX_COMPILER__Data_Estructure_C_unscanned_Debug C$:/Users/72358/CLionProjects/Data_Estructure_C/Stack/Stack.cpp || cmake_object_order_depends_target_Data_Estructure_C
+  DEP_FILE = CMakeFiles\Data_Estructure_C.dir\Stack\Stack.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Data_Estructure_C.dir\Stack
+
+build CMakeFiles/Data_Estructure_C.dir/Queue/Queue.cpp.obj: CXX_COMPILER__Data_Estructure_C_unscanned_Debug C$:/Users/72358/CLionProjects/Data_Estructure_C/Queue/Queue.cpp || cmake_object_order_depends_target_Data_Estructure_C
+  DEP_FILE = CMakeFiles\Data_Estructure_C.dir\Queue\Queue.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Data_Estructure_C.dir\Queue
+
+build CMakeFiles/Data_Estructure_C.dir/RingList/RingList.cpp.obj: CXX_COMPILER__Data_Estructure_C_unscanned_Debug C$:/Users/72358/CLionProjects/Data_Estructure_C/RingList/RingList.cpp || cmake_object_order_depends_target_Data_Estructure_C
+  DEP_FILE = CMakeFiles\Data_Estructure_C.dir\RingList\RingList.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Data_Estructure_C.dir\RingList
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Data_Estructure_C
@@ -87,7 +105,7 @@ build CMakeFiles/Data_Estructure_C.dir/DoubleLinkedList/DoubleLinkedList.cpp.obj
 #############################################
 # Link the executable Data_Estructure_C.exe
 
-build Data_Estructure_C.exe: CXX_EXECUTABLE_LINKER__Data_Estructure_C_Debug CMakeFiles/Data_Estructure_C.dir/main.cpp.obj CMakeFiles/Data_Estructure_C.dir/BigO/Bigo.cpp.obj CMakeFiles/Data_Estructure_C.dir/ClassAndPointers/Cookie.cpp.obj CMakeFiles/Data_Estructure_C.dir/LinkedList/LinkedList.cpp.obj CMakeFiles/Data_Estructure_C.dir/DoubleLinkedList/DoubleLinkedList.cpp.obj
+build Data_Estructure_C.exe: CXX_EXECUTABLE_LINKER__Data_Estructure_C_Debug CMakeFiles/Data_Estructure_C.dir/main.cpp.obj CMakeFiles/Data_Estructure_C.dir/BigO/Bigo.cpp.obj CMakeFiles/Data_Estructure_C.dir/ClassAndPointers/Cookie.cpp.obj CMakeFiles/Data_Estructure_C.dir/LinkedList/LinkedList.cpp.obj CMakeFiles/Data_Estructure_C.dir/DoubleLinkedList/DoubleLinkedList.cpp.obj CMakeFiles/Data_Estructure_C.dir/Stack/Stack.cpp.obj CMakeFiles/Data_Estructure_C.dir/Queue/Queue.cpp.obj CMakeFiles/Data_Estructure_C.dir/RingList/RingList.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir

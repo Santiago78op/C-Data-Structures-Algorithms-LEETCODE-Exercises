@@ -11,4 +11,10 @@ add_executable(Data_Estructure_C main.cpp
         LinkedList/LinkedList.h
         DoubleLinkedList/DoubleLinkedList.cpp
         DoubleLinkedList/DoubleLinkedList.h
+        Stack/Stack.cpp
+        Stack/Stack.h
+        Queue/Queue.cpp
+        Queue/Queue.h
+        RingList/RingList.cpp
+        RingList/RingList.h
 )

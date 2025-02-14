@@ -33,9 +33,8 @@ class LinkedList {
 
         /*
          * Constructor que inicializa la lista con un valor dado.
-         * @param value Valor del nodo inicial
          */
-        explicit LinkedList(int value);
+        explicit LinkedList();
 
         /*
          * Destructor que libera la memoria de los nodos de la lista.

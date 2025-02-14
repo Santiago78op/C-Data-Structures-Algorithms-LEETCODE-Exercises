@@ -9,6 +9,8 @@ int main() {
 
     // Funcion fibonacci
     fibonacciOptimo(5,0,1);
+    // Imprimir hola mundo
+    cout << "Hello, World!" << endl;
     return 0;
 }
 

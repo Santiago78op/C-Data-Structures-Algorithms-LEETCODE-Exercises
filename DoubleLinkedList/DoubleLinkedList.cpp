@@ -35,12 +35,10 @@ Node::Node(int value) {
  * @test_cases
  * DoubleLinkedList myDoubleLinkedList = *new DoubleLinkedList(4);
  */
-DoubleLinkedList::DoubleLinkedList(int value) {
-    Node *newNode = new Node(value);
-
-    head = newNode;
-    tail = newNode;
-    length = 1;
+DoubleLinkedList::DoubleLinkedList() {
+    head = nullptr;
+    tail = nullptr;
+    length = 0;
 }
 
 /**
@@ -344,4 +342,107 @@ void DoubleLinkedList::deleteNode(int index) {
     temp->prev->next = temp->next;
     delete temp;
     length--;
+}
+
+/**
+ * Método que invierte la lista.
+ * @return void
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Se invierte la lista
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.reverse();
+ */
+void DoubleLinkedList::swapFirstAndLast() {
+    if(length < 2) return;
+
+    int temp = head->value;
+    head->value = tail->value;
+    tail->value = temp;
+}
+
+/**
+ * Método que invierte la lista.
+ * @return void
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Se invierte la lista
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.reverse();
+ */
+void DoubleLinkedList::reverse() {
+    if (length < 2) return;
+
+    Node* current = head;
+    Node* temp = nullptr;
+
+    while (current != nullptr) {
+        // Intercambiar los punteros next y prev
+        temp = current->prev;
+        current->prev = current->next;
+        current->next = temp;
+
+        // Moverse al siguiente nodo en la lista original
+        current = current->prev;
+    }
+
+    // Intercambiar head y tail
+    temp = head;
+    head = tail;
+    tail = temp;
+}
+
+/**
+ * Método que verifica si la lista es un palíndromo.
+ * @return Verdadero si la lista es un palíndromo, falso en caso contrario
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Ninguna
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.isPalindrome();
+ */
+bool DoubleLinkedList::isPalindrome() {
+    if (length < 2) return true;
+
+    Node* left = head;
+    Node* right = tail;
+
+    while (left != right && left->prev != right) {
+        if (left->value != right->value) {
+            return false;
+        }
+        left = left->next;
+        right = right->prev;
+    }
+
+    return true;
+}
+
+/**
+ * Método que intercambia los nodos en pares.
+ * @return void
+ * @complexity O(n)
+ * @precondition Ninguna
+ * @postcondition Se intercambian los nodos en pares
+ * @exception Ninguna
+ * @test_cases
+ * myDoubleLinkedList.swapPairs();
+ */
+void DoubleLinkedList::swapPairs() {
+    if (length < 2) return;
+
+    Node* current = head;
+
+    while (current != nullptr && current->next != nullptr) {
+        // Intercambiar los valores de current y current->next
+        int temp = current->value;
+        current->value = current->next->value;
+        current->next->value = temp;
+
+        // Moverse al siguiente par de nodos
+        current = current->next->next;
+    }
 }

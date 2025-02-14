@@ -34,12 +34,10 @@ Node::Node(int value) {
  * @test_cases
  * LinkedList myLinkedList = *new LinkedList(4);
  */
-LinkedList::LinkedList(int value) {
-    Node *newNode = new Node(value);
-
-    head = newNode;
-    tail = newNode;
-    length = 1;
+LinkedList::LinkedList() {
+    head = nullptr;
+    tail = nullptr;
+    length = 0;
 }
 
 /*
