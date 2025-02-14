@@ -97,6 +97,18 @@ build CMakeFiles/Data_Estructure_C.dir/RingList/RingList.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir
   OBJECT_FILE_DIR = CMakeFiles\Data_Estructure_C.dir\RingList
 
+build CMakeFiles/Data_Estructure_C.dir/MatrizDispersa/MatrizDispersa.cpp.obj: CXX_COMPILER__Data_Estructure_C_unscanned_Debug C$:/Users/72358/CLionProjects/Data_Estructure_C/MatrizDispersa/MatrizDispersa.cpp || cmake_object_order_depends_target_Data_Estructure_C
+  DEP_FILE = CMakeFiles\Data_Estructure_C.dir\MatrizDispersa\MatrizDispersa.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Data_Estructure_C.dir\MatrizDispersa
+
+build CMakeFiles/Data_Estructure_C.dir/MatrizDispersa/List_Encabezado.cpp.obj: CXX_COMPILER__Data_Estructure_C_unscanned_Debug C$:/Users/72358/CLionProjects/Data_Estructure_C/MatrizDispersa/List_Encabezado.cpp || cmake_object_order_depends_target_Data_Estructure_C
+  DEP_FILE = CMakeFiles\Data_Estructure_C.dir\MatrizDispersa\List_Encabezado.cpp.obj.d
+  FLAGS = -g -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir
+  OBJECT_FILE_DIR = CMakeFiles\Data_Estructure_C.dir\MatrizDispersa
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target Data_Estructure_C
@@ -105,7 +117,7 @@ build CMakeFiles/Data_Estructure_C.dir/RingList/RingList.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable Data_Estructure_C.exe
 
-build Data_Estructure_C.exe: CXX_EXECUTABLE_LINKER__Data_Estructure_C_Debug CMakeFiles/Data_Estructure_C.dir/main.cpp.obj CMakeFiles/Data_Estructure_C.dir/BigO/Bigo.cpp.obj CMakeFiles/Data_Estructure_C.dir/ClassAndPointers/Cookie.cpp.obj CMakeFiles/Data_Estructure_C.dir/LinkedList/LinkedList.cpp.obj CMakeFiles/Data_Estructure_C.dir/DoubleLinkedList/DoubleLinkedList.cpp.obj CMakeFiles/Data_Estructure_C.dir/Stack/Stack.cpp.obj CMakeFiles/Data_Estructure_C.dir/Queue/Queue.cpp.obj CMakeFiles/Data_Estructure_C.dir/RingList/RingList.cpp.obj
+build Data_Estructure_C.exe: CXX_EXECUTABLE_LINKER__Data_Estructure_C_Debug CMakeFiles/Data_Estructure_C.dir/main.cpp.obj CMakeFiles/Data_Estructure_C.dir/BigO/Bigo.cpp.obj CMakeFiles/Data_Estructure_C.dir/ClassAndPointers/Cookie.cpp.obj CMakeFiles/Data_Estructure_C.dir/LinkedList/LinkedList.cpp.obj CMakeFiles/Data_Estructure_C.dir/DoubleLinkedList/DoubleLinkedList.cpp.obj CMakeFiles/Data_Estructure_C.dir/Stack/Stack.cpp.obj CMakeFiles/Data_Estructure_C.dir/Queue/Queue.cpp.obj CMakeFiles/Data_Estructure_C.dir/RingList/RingList.cpp.obj CMakeFiles/Data_Estructure_C.dir/MatrizDispersa/MatrizDispersa.cpp.obj CMakeFiles/Data_Estructure_C.dir/MatrizDispersa/List_Encabezado.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Data_Estructure_C.dir

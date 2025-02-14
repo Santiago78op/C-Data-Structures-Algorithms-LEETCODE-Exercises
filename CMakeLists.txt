@@ -17,4 +17,8 @@ add_executable(Data_Estructure_C main.cpp
         Queue/Queue.h
         RingList/RingList.cpp
         RingList/RingList.h
+        MatrizDispersa/MatrizDispersa.cpp
+        MatrizDispersa/MatrizDispersa.h
+        MatrizDispersa/List_Encabezado.cpp
+        MatrizDispersa/List_Encabezado.h
 )
