@@ -21,4 +21,12 @@ add_executable(Data_Estructure_C main.cpp
         MatrizDispersa/MatrizDispersa.h
         MatrizDispersa/List_Encabezado.cpp
         MatrizDispersa/List_Encabezado.h
+        Stack/StackVector.cpp
+        Stack/ReverseString.cpp
+        Stack/SortStack.cpp
+        Stack/QueueUsingTwoStacks.h
+        tree/Node.cpp
+        tree/Node.h
+        tree/BinarySearchTree.cpp
+        tree/BinarySearchTree.h
 )
