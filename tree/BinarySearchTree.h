@@ -10,6 +10,8 @@
 
 class BinarySearchTree {
 private:
+    BinarySearchTree(int value);
+
     Node *root;
 
 public:

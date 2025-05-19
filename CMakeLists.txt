@@ -29,4 +29,15 @@ add_executable(Data_Estructure_C main.cpp
         tree/Node.h
         tree/BinarySearchTree.cpp
         tree/BinarySearchTree.h
+        tree/treeBk.cpp
+        tree/treeB.cpp
+        Grafo/Grafo.cpp
+        Grafo/PriorityQueue.cpp
+        Grafo/CostoMin.cpp
+        Criptografo/Criptografo.h
+        Criptografo/Criptografo.cpp
+        Criptografo/x.cpp
+        Criptografo/y.cpp
+        Criptografo/busca.cpp
+        "arbol/ArbolBinario .cpp"
 )

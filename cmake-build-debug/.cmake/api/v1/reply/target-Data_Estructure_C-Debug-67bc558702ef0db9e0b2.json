@@ -66,7 +66,17 @@
 				19,
 				20,
 				22,
-				24
+				24,
+				26,
+				27,
+				28,
+				29,
+				30,
+				32,
+				33,
+				34,
+				35,
+				36
 			]
 		}
 	],
@@ -117,7 +127,17 @@
 				19,
 				20,
 				22,
-				24
+				24,
+				26,
+				27,
+				28,
+				29,
+				30,
+				32,
+				33,
+				34,
+				35,
+				36
 			]
 		},
 		{
@@ -134,7 +154,8 @@
 				17,
 				21,
 				23,
-				25
+				25,
+				31
 			]
 		}
 	],
@@ -284,6 +305,71 @@
 			"backtrace" : 1,
 			"path" : "tree/BinarySearchTree.h",
 			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tree/treeBk.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "tree/treeB.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Grafo/Grafo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Grafo/PriorityQueue.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Grafo/CostoMin.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"path" : "Criptografo/Criptografo.h",
+			"sourceGroupIndex" : 1
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Criptografo/Criptografo.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Criptografo/x.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Criptografo/y.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Criptografo/busca.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "arbol/ArbolBinario .cpp",
+			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"
