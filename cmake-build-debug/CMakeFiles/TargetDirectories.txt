@@ -1,3 +1,3 @@
-C:/Users/72358/CLionProjects/Data_Estructure_C/cmake-build-debug/CMakeFiles/Data_Estructure_C.dir
-C:/Users/72358/CLionProjects/Data_Estructure_C/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/72358/CLionProjects/Data_Estructure_C/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/72358/Desktop/C-Data-Structures-Algorithms-LEETCODE-Exercises/cmake-build-debug/CMakeFiles/Data_Estructure_C.dir
+C:/Users/72358/Desktop/C-Data-Structures-Algorithms-LEETCODE-Exercises/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/72358/Desktop/C-Data-Structures-Algorithms-LEETCODE-Exercises/cmake-build-debug/CMakeFiles/rebuild_cache.dir
